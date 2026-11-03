@@ -1,0 +1,27 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Private files
+.env
+.env.*
+
+# Original and intermediate datasets
+data/openpowerlifting.csv
+data/openpowerlifting_with_dates.csv
+data/meets.csv
+data/athlete_features.csv
+
+# Temporary files
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
